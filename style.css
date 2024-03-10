@@ -11,11 +11,13 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    height: 30vh;
 }
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 .header header {
     font: 24px;
@@ -24,16 +26,54 @@ html, body {
 .header nav {
     font: 18px;
     color: #e5e7eb;
+    
 }
 /* Paragraph and Image */
 .headBody {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .signUp {
     display: flex;
     flex-direction: column;
+    width: 30%;
+}
+.signUp h3 {
+    font: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.signUp p {
+    font: 18px;
+    color: #e5e7eb;
+}
+.signUp input {
+    width: 13%;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 13%;
 }
 .headBody img {
-    width: 100px;
+    width: 350px;
+    height: 200px;
+}
+
+
+
+
+
+.bodyContainer1 {
+    height: 20vh;
+}
+.bodyContainer2 {
+    height: 20vh;
+    background-color: #e5e7eb;
+}
+.bodyContainer3 {
+    height: 20vh;
+}
+.footerContainer {
+    height: 10vh;
+    background-color: #1f2937;
 }
