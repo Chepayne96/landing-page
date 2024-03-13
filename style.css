@@ -1,39 +1,82 @@
-html, body {
+html body {
     margin: 0;
     padding: 0;
 }
 .container {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
-/* Header and Nav */
+/* Header Section */
+/* Houses the HEADER and NAV */
 .headerContainer {
-    display: flex;
-    flex-direction: column;
     background-color: #1f2937;
+    height: 30%;
 }
-.header {
+.title {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    height: 10%;
+    justify-content: space-between;
 }
-.header header {
+header {
     font: 24px;
     color: #f9faf8;
+    padding-left: 70px;
+    padding-top: 5px;
 }
-.header nav {
-    font: 18px;
-    color: #e5e7eb;
+nav {
+    padding-right: 50px;
+    padding-top: 5px;
+    gap: 5px;
 }
-/* Paragraph and Image */
-.headBody {
+nav a {
+    margin: 5px;
+}
+
+/* Houses the H2 P IMG */
+.intro {
+    /* border: 2px solid red; */
+    height: 90%;
     display: flex;
     flex-direction: row;
+}
+.image {
+    width: 30%;
+    height: 40%;
+    object-fit: contain;
+    margin-top: 50px;
+}
+.image img {
+    width: 100%;
+    height: 100%;
 }
 .signUp {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    padding-left: 80px;
 }
-.headBody img {
-    width: 100px;
+.signUp h2 {
+    font: 34px bolder times;
+    color: #f9faf8;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
+.signUp p {
+    font: 18px;
+    color: #e5e7eb;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.signUp input {
+    width: 15%;
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Body 1 section */
+/* this will house the h2 and the four cards( img and p ) */
