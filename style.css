@@ -91,3 +91,82 @@ nav a {
 
 /* Body 1 section */
 /* this will house the h2 and the four cards( img and p ) */
+.body1 {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+.body1 h2 {
+    text-align: center;
+}
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cardContainer p {
+    text-align: center;
+}
+.cardContainer img {
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 70px;
+}
+
+
+/* Quote container */
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    background-color: #e5e7eb;
+}
+.quote p {
+    text-align: center;
+}
+.author p {
+    text-align: right;
+    padding-right: 100px;
+}
+
+
+/* body2 container */
+.body2 {
+    height: 20%;
+    /* border: 2px solid black; */
+}
+.actionBar {
+    border: 2px solid black;
+    background-color: #3882f6;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.actionBar h4 {
+    margin-bottom: 0;
+}
+.actionBar p {
+    margin-top: 0;
+    padding-top: 0;
+}
+.actionBar input {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 4pt;
+    margin-left: 450px;
+}
+
+footer {
+    border: 2px solid black;
+    height: 5%;
+    background-color: #1f2937;
+    color: white;
+    font: 10pt times;
+    text-align: center;
+}
