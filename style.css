@@ -104,3 +104,24 @@ li {
 .top-body-info p {
     width: 150px;
 }
+
+
+.mid-body {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-body p {
+    width: 70%;
+    height: auto;
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.mid-body h4 {
+    margin-left: 35%;
+}
