@@ -165,3 +165,14 @@ li {
 }
 
 
+.footer {
+    background-color: #1f2937;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #e5e7eb;
+}
